@@ -1,10 +1,13 @@
 package project1;
+import java.util.Random;
 
 public class HelloWorld {
 
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++) {
-            System.out.println("HelloWorld");
-        }
-    }
-}
+    	 Random random = new Random();
+    	 int randomNumber = random.nextInt(10) + 1;
+    	 for (int i = 0; i < randomNumber; i++) {
+             System.out.println("HelloWorld");
+         }
+     }
+ }
